@@ -5,6 +5,11 @@ Created on Sat Sep  4 13:10:28 2021
 
 @author: jinshengdan
 """
+##########################
+##### Assignment 1
+##### ANLY 590 Section 2
+##### Shengdan Jin
+##########################
 
 # Import necessary packages
 import pandas as pd 
@@ -16,8 +21,8 @@ from scipy.interpolate import interp1d
 import scipy.signal
 import warnings
 
-
-warnings.filterwarnings("ignore") #supress all warnings
+#supress all warnings
+warnings.filterwarnings("ignore") 
 
 
 # Create a class named 'Data' to read in file, partition the data and make visualizations.
